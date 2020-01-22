@@ -1,0 +1,11 @@
+framework module CRSegmentControl {
+  umbrella header "CRSegmentControl.h"
+
+  export *
+  module * { export * }
+}
+
+module CRSegmentControl.Swift {
+    header "CRSegmentControl-Swift.h"
+    requires objc
+}
